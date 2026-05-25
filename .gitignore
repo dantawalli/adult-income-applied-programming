@@ -1,6 +1,7 @@
-# IDE settings
+.venv/
 .idea/
-Data/.idea/
-
-# System files
+models/
+__pycache__/
+.ipynb_checkpoints/
 .DS_Store
+*.pyc
