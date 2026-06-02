@@ -8,7 +8,6 @@ DATASET_NAME = "wenruliu/adult-income-dataset"
 DATA_FILE_NAME = "adult.csv"
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = BASE_DIR / "data"
 MODEL_DIR = BASE_DIR / "models"
 
 BEST_MODEL_NAME = "best_random_forest_model.joblib"

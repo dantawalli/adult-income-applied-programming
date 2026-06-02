@@ -83,7 +83,6 @@ def compare_smote_effect(
 
     label_encoder = LabelEncoder()
     y_train_encoded = label_encoder.fit_transform(y_train)
-    y_test_encoded = label_encoder.transform(y_test)
     positive_class_index = int(
         np.where(label_encoder.classes_ == ">50K")[0][0]
     )

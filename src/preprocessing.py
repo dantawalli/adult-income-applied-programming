@@ -27,7 +27,6 @@ def clean_dataset(df: pd.DataFrame) -> pd.DataFrame:
     clean_df = df.copy()
 
     clean_df = clean_df.replace("?", np.nan)
-    clean_df = clean_df.replace(" ?", np.nan)
 
     clean_df = clean_df.drop_duplicates()
 
